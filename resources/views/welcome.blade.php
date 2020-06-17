@@ -1,13 +1,17 @@
 <x-layout>
-    <x-section>
-        Welcome
-    </x-section>
+    <x-flash>
+        You Are Correct!
+    </x-flash>
 
-    <x-section>
-        Welcome Again
-    </x-section>
+    <x-flash type="warning">
+        Check Yourself!
+    </x-flash>
 
-    <x-section>
-        Welcome A Third Time
-    </x-section>
+    <x-flash type="error">
+        You Are Wrong!
+    </x-flash>
+
+    <x-flash class="mt-10" type="success">
+        You Are Correct Again!
+    </x-flash>
 </x-layout>
