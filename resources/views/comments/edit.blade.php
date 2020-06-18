@@ -3,7 +3,6 @@
         <x-form
             method="PATCH"
             action="/comments/{{ $comment->id }}"
-            class="bg-blue-200"
         >
             <div class="mb-6">
                 <label for="body" class="block mb-2 uppercase font-bold text-xs text-gray-700">
@@ -31,5 +30,14 @@
                 </button>
             </div>
         </x-form>
+
+        <x-form-button
+            method="DELETE"
+            action="/comments/{{ $comment->id }}"
+            class="bg-red-400 text-white rounded py-2 px-4 hover:bg-blue-500"
+        >
+            Delete
+        </x-form-button>
+
     </x-section>
 </x-layout>
