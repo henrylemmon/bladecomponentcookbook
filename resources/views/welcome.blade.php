@@ -1,17 +1,9 @@
 <x-layout>
-    <x-flash>
-        You Are Correct!
-    </x-flash>
+    <x-section>
+        <a href="/flash">Flash Messages &gt;</a>
+    </x-section>
 
-    <x-flash type="warning">
-        Check Yourself!
-    </x-flash>
-
-    <x-flash type="error">
-        You Are Wrong!
-    </x-flash>
-
-    <x-flash class="mt-10" type="success">
-        You Are Correct Again!
-    </x-flash>
+    <x-section>
+        <a href="/comments">View All Comments &gt;</a>
+    </x-section>
 </x-layout>
