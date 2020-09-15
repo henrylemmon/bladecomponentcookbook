@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/modal', function () {
+    return view('modal.modal');
+});
+
 Route::get('/flash', function () {
     return view('flashes.flash');
 });

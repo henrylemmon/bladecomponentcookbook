@@ -6,4 +6,8 @@
     <x-section>
         <a href="/comments">View All Comments &gt;</a>
     </x-section>
+
+    <x-section>
+        <a href="/modal">Modal &gt;</a>
+    </x-section>
 </x-layout>
