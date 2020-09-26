@@ -1,0 +1,1 @@
+$attributes is an instance of ComponentAttributeBag.php

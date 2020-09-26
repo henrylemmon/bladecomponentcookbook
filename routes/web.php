@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dropdown', function () {
+    return view('dropdown.dropdown');
+});
+
 Route::get('/modal', function () {
     return view('modal.modal');
 });

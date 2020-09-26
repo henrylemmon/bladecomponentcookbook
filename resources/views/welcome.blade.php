@@ -10,4 +10,8 @@
     <x-section>
         <a href="/modal">Modal &gt;</a>
     </x-section>
+
+    <x-section>
+        <a href="/dropdown">Dropdown &gt;</a>
+    </x-section>
 </x-layout>
