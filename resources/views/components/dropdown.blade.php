@@ -1,9 +1,17 @@
-@props(['alignment' => 'left'])
+@props([
+    'alignment' => 'left',
+    'color' => 'white'
+])
 
 @php
     $alignmentClasses = [
         'left' => 'left-0',
         'right' => 'right-0'
+    ];
+
+    $textColorClasses = [
+        'white' => 'text-white',
+        'black' => 'text-black'
     ];
 @endphp
 
@@ -14,7 +22,7 @@
     </div>
 
     <div
-        class="absolute {{ $alignmentClasses[$alignment] }} z-20 bg-white rounded shadow-md py-2 mt-1 w-40"
+        class="absolute {{ $alignmentClasses[$alignment] .' '. $textColorClasses[$color] }} z-20 bg-white rounded shadow-md py-2 mt-1 w-40"
         x-show="open"
         @click.away="open = false"
         x-transition:enter="transition transform duration-300"

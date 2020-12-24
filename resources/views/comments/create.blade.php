@@ -31,11 +31,13 @@
             </div>
         </x-form>
 
-        <a href="/comments">All Comments &gt;</a>
-
         <a href="/" class="text-blue-400 rounded hover:text-blue-500 mr-4">
             Main Menu &gt;
         </a>
+
+        <a href="/comments" class="text-blue-400 rounded hover:text-blue-500 mr-4">All Comments &gt;</a>
+
+        <a>Comments Create &gt;</a>
 
     </x-section>
 </x-layout>

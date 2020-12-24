@@ -11,6 +11,8 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body>
-{{ $slot }}
+    @include('partials/header')
+
+    {{ $slot }}
 </body>
 </html>

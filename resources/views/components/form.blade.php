@@ -7,7 +7,7 @@
 <form
     method="{{ $method === 'GET' ? 'GET' : 'POST' }}"
     action="{{ $action }}"
-    {{ $attributes }}
+        {{ $attributes }}
 
 >
     @csrf

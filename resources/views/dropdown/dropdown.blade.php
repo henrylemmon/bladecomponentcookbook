@@ -2,7 +2,7 @@
     <x-section>
 
         <div>
-            <x-dropdown alignment="right">
+            <x-dropdown alignment="left" color="black">
                 <x-slot name="trigger">
                     <button class="focus:outline-none text-left">Click Me</button>
                 </x-slot>
