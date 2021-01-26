@@ -4,4 +4,4 @@
 - Learning and Reference Project
 ```
 
-This reference repo was created following [Blade Component Cookbook](https://laracasts.com/series/blade-component-cookbook)
+This reference repo was created following the [Laracasts series](https://laracasts.com) called [Blade Component Cookbook](https://laracasts.com/series/blade-component-cookbook)
